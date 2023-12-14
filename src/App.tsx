@@ -1,13 +1,11 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Dashboard from './Dashboard';
-import { Button } from 'antd';
+import React from "react";
+import Dashboard from "./Dashboard";
 
 function App() {
   return (
-    <><button>sssss</button>
-    </>
+    <React.Fragment> 
+      <Dashboard/>
+    </React.Fragment> 
   );
 }
 
