@@ -1,14 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Dashboard from './Dashboard';
 import { Button } from 'antd';
 
-function App() {
+function Dashboard() {
   return (
-    <><button>okok</button>
-    </>
+    <Button>OKOK</Button>
   );
 }
 
-export default App;
+export default Dashboard
